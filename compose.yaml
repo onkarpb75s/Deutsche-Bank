@@ -1,0 +1,7 @@
+services:
+  bankops-api:
+    build: .
+    ports:
+      - "8000:8000"
+    environment:
+      BANKOPS_DATA: data/sample_events.csv
